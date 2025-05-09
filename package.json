@@ -1,0 +1,42 @@
+{
+  "name": "google-meet-scheduler",
+  "version": "1.0.0",
+  "description": "Generate Google Meet links by creating calendar events using the Google API",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "node --loader ts-node/esm test/index.ts"
+  },
+  "keywords": [
+    "google-meet",
+    "calendar",
+    "google-api",
+    "scheduler",
+    "meet-link"
+  ],
+  "author": "Mahedi Hasan",
+  "license": "MIT",
+  "homepage": "https://github.com/mahedidev/google-meet-scheduler#readme",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "googleapis": "^130.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
