@@ -30,10 +30,10 @@
   ],
   "author": "Mahedi Hasan",
   "license": "MIT",
-  "homepage": "https://github.com/mahedidev/google-meet-scheduler#readme",
+  "homepage": "https://github.com/Mahedi-Hasan10/google-meet-schedular#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahedidev/google-meet-scheduler.git"
+    "url": "git+https://github.com/Mahedi-Hasan10/google-meet-schedular.git"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
