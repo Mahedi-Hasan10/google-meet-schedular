@@ -1,6 +1,6 @@
 {
   "name": "google-meet-scheduler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate Google Meet links by creating calendar events using the Google API",
   "main": "dist/index.js",
   "module": "dist/index.js",
